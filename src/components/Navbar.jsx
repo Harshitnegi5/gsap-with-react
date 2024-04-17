@@ -8,7 +8,6 @@ const Navbar = () => {
  
 
   const tl = gsap.timeline({
-    repeat:-1,
     repeatDelay:1,
     yoyo:"true"
   })
