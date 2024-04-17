@@ -1,0 +1,37 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: updown 1s ease-in infinite alternate;
+}
+
+
+@keyframes updown{
+    100%{
+        transform: translateY(150px);
+        border-radius: 50%;
+    }
+    
+}
+ */
