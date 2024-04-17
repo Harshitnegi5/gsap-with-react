@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navabr";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <>
+    <div className="main h-screen w-full bg-[#000000] relative flex items-center justify-center">
      <Navbar/>
-    </>
+    </div>
   );
 };
 
