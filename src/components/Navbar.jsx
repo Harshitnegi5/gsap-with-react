@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
 
-const Navabr = () => {
+const Navbar = () => {
 
  
 
@@ -37,4 +37,4 @@ const Navabr = () => {
   )
 }
 
-export default Navabr;
+export default Navbar;
